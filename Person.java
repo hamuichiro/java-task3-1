@@ -6,11 +6,13 @@ public class Person {
     }
 
     public void speak() {
+        String gen = "I'm a ";
         if (this.gender.equals("’j«")) {
-            System.out.println("I'm a man");
+            gen += "man";
         } else {
-            System.out.println("I'm a woman");
+            gen += "woman";
         }
+        System.out.println(gen);
     }    
 }
 
